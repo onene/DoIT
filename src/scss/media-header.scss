@@ -1,0 +1,87 @@
+        @media screen and(max-width: 1200px) {
+            .header {
+                padding-bottom: 20px;
+                .header-profile {
+                    .header-profile_title {
+                        h3 {
+                            font-size: .8rem
+                        }
+                    }
+                }
+            }
+        }
+        
+        @media screen and(max-width: 1024px) {
+            .slick-dots {
+                bottom: -18px !important;
+            }
+            .slick-next,
+            .slick-prev {
+                top: 103% !important;
+            }
+            .header {
+                .header-slider {
+                    width: 55%;
+                }
+                .header-social {
+                    width: 24%;
+                }
+                .header-profile {
+                    width: 17%;
+                    .header-profile_title {
+                        height: 20%;
+                        padding: 7px;
+                        h3 {
+                            font-size: 0.7rem;
+                        }
+                    }
+                }
+            }
+        }
+        
+        @media screen and(max-width: 768px) {
+            .header {
+                padding-bottom: 0 !important;
+                .header-social {
+                    display: block;
+                    .header-social_item {
+                        margin: 0 auto;
+                        border-radius: 50% !important;
+                        height: 15% !important;
+                        width: 29% !important;
+                        margin-bottom: 27px;
+                    }
+                }
+                .header-profile {
+                    width: 35% !important;
+                }
+            }
+        }
+        
+        @media screen and(max-width: 426px) {
+            .header {
+                flex-wrap: wrap;
+                .header-slider {
+                    width: 100% !important;
+                    .header-slider_slide {
+                        background-position: center !important;
+                    }
+                }
+                .header-social {
+                    display: flex;
+                    width: 47% !important;
+                    justify-content: space-between;
+                    .header-social_item {
+                        border-radius: 0 !important;
+                        width: 45% !important;
+                        height: 80px !important;
+                    }
+                }
+                .header-profile {
+                    width: 47% !important;
+                    .header-profile_foto {
+                        height: 53% !important;
+                    }
+                }
+            }
+        }

@@ -1,0 +1,95 @@
+$blue: #00b2b2;
+.header {
+    padding: 30px 0;
+    display: flex;
+    justify-content: space-between;
+    .header-slider {
+        width: 60%;
+        .header-slider_slide {
+            height: 215px;
+            width: 100%;
+            background-image: url(../../build/img/1.jpg);
+            background-size: cover;
+        }
+    }
+    .header-social {
+        width: 20%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        .header-social_item {
+            width: 45%;
+            background-color: #fff;
+            height: 45%;
+        }
+        .google {
+            background-image: url(../../build/img/g+.png);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+        .facebook {
+            background-image: url(../../build/img/facebook.png);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+        .twitter {
+            background-image: url(../../build/img/tw.png);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+        .be {
+            background-image: url(../../build/img/be.png);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+    }
+    .header-profile {
+        width: 15%;
+        .header-profile_foto {
+            width: 100%;
+            background-image: url(../../build/img/ava.png);
+            background-position: center;
+            height: 60%;
+        }
+        .header-profile_title {
+            height: 25%;
+            background-color: #fff;
+            padding: 15px 7px;
+            box-sizing: border-box;
+            h3 {
+                font-size: 1rem;
+            }
+            p {
+                font-size: .7rem;
+                color: $blue;
+            }
+        }
+        .header-profile_social {
+            height: 15%;
+            background-color: $blue;
+            display: flex;
+            justify-content: space-between;
+            align-content: center;
+            .header-profile_social__item {
+                height: 100%;
+                width: 33%;
+                text-align: center;
+                box-sizing: border-box;
+                padding-top: 7px;
+                border-right: 1px solid #fff;
+                p {
+                    display: inline-block;
+                    color: #fff;
+                    font-size: .8rem
+                }
+            }
+            .last {
+                border: none;
+            }
+        }
+    }
+}

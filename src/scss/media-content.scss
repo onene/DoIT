@@ -1,0 +1,202 @@
+@media screen and(max-width: 1200px) {
+    .content {
+        .columns {
+            .column-3 {
+                width: 38% !important;
+            }
+            .column-1 {
+                .column-1_rersonal {
+                    .column-1_rersonal__img {
+                        background-size: contain !important;
+                        height: 140px !important;
+                    }
+                    .column-1_rersonal__tittle {
+                        h3 {
+                            font-size: 0.8rem !important;
+                            margin-bottom: 10px;
+                        }
+                        p {
+                            margin-bottom: 15px;
+                        }
+                    }
+                }
+                .column-1_dropdown {
+                    .column-1_dropdown__normal {
+                        margin-bottom: 10px !important;
+                        .column-1_dropdown__normal__text {
+                            font-size: .8rem !important;
+                            padding: 0 5px !important;
+                        }
+                    }
+                    .column-1_dropdown__active {
+                        font-size: 0.8rem !important;
+                    }
+                }
+            }
+            .column-2 {
+                .column-2_weather {
+                    .column-2_weather__row3 {
+                        .column-2_weather__row3_day {
+                            padding: 5px 4px !important;
+                        }
+                    }
+                }
+                .column-2_alerts {
+                    padding: 14px 15px !important;
+                }
+                .blue,
+                .green,
+                .orange,
+                {
+                    margin-bottom: 10px !important;
+                }
+            }
+        }
+    }
+    .form {
+        bottom: 0 !important;
+        ;
+    }
+}
+
+@media screen and(max-width: 768px) {
+    .content {
+        padding-top: 10px !important;
+        width: 100% !important;
+        .columns {
+            width: 100% !important;
+            flex-wrap: wrap !important;
+            .column-1 {
+                width: 47% !important;
+                margin-bottom: 25px !important;
+            }
+            .column-2 {
+                width: 47% !important;
+            }
+            .column-3 {
+                width: 47%;
+            }
+        }
+    }
+    .ui-widget {
+        .ui-widget-content {
+            width: 100% !important;
+        }
+    }
+    .form {
+        width: 43% !important;
+    }
+}
+
+@media screen and(max-width: 426px) {
+    .content {
+        .columns {
+            .column-2 {
+                .column-2_weather {
+                    margin-bottom: 8px !important;
+                    .column-2_weather__row1 {
+                        padding: 20px !important;
+                    }
+                    .column-2_weather__row2 {
+                        padding-bottom: 35px !important;
+                        .column-2_weather__row2_icon {
+                            img {
+                                width: 85px !important;
+                            }
+                        }
+                        .column-2_weather__row2_text {
+                            font-size: 3rem !important;
+                        }
+                    }
+                    .column-2_weather__row3 {
+                        .column-2_weather__row3_day {
+                            font-size: 0.5rem !important;
+                        }
+                    }
+                }
+                .column-2_alerts {
+                    .column-2_alerts__item {
+                        font-size: .7rem !important;
+                    }
+                }
+            }
+            .column-3 {
+                #datepicker {
+                    margin-left: 33% !important;
+                }
+            }
+        }
+    }
+    .form {
+        bottom: -14% !important;
+        width: 92% !important;
+        margin-bottom: 30px !important;
+        .form-row2 {
+            .form-row2_alert {
+                font-size: .85rem !important;
+            }
+            input {
+                padding: 0 !important;
+                padding-left: 5px !important;
+            }
+        }
+    }
+}
+
+@media screen and(max-width: 376px) {
+    .content {
+        .columns {
+            .column-3 {
+                #datepicker {
+                    margin-left: 18% !important;
+                }
+            }
+        }
+    }
+    .form {
+        bottom: -15% !important;
+        .form-row2 {
+            .form-row2_alert {
+                font-size: .7rem !important;
+                padding: 9px !important;
+            }
+        }
+        .form-row3 {
+            button {
+                right: -1px !important;
+            }
+        }
+    }
+}
+
+@media screen and(max-width: 320px) {
+    .content {
+        .columns {
+            display: block;
+            .column-1 {
+                width: 100% !important;
+            }
+            .column-2 {
+                width: 100% !important;
+                margin-bottom: 15px !important;
+            }
+            .column-3 {
+                width: 10% !important;
+                #datepiker {
+                    display: block !important;
+                    width: 13% !important;
+                    // margin-left: -5% !important;
+                }
+            }
+        }
+    }
+    .form {
+        bottom: -10% !important;
+        .form-row2 {
+            .form-row2_alert {
+                font-size: .6rem !important;
+                padding: 9px !important;
+            }
+        }
+    }
+}

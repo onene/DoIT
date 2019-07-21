@@ -1,0 +1,116 @@
+@media screen and(max-width: 1200px) {
+    .nav {
+        width: 81% !important;
+        ul {
+            li {
+                padding: 0 10px !important;
+                a {
+                    padding: 0 5px !important;
+                }
+                &:last-child input {
+                    width: 131% !important;
+                }
+                &:last-child button {
+                    right: -27% !important;
+                }
+            }
+            .home {
+                img {
+                    left: -2px !important;
+                }
+            }
+        }
+    }
+}
+
+@media screen and(max-width: 768px) {
+    .nav {
+        float: none !important;
+        width: 100% !important;
+        margin-bottom: 15px !important;
+        ul {
+            li {
+                &:last-child input {
+                    width: 103% !important;
+                }
+                &:last-child button {
+                    right: -2% !important;
+                }
+            }
+        }
+    }
+}
+
+@media screen and(max-width: 768px) {
+    .nav {
+        ul {
+            li {
+                font-size: .7rem !important;
+                padding: 1px 10px !important;
+                &:last-child input {
+                    padding: 0 !important;
+                    width: 276% !important;
+                }
+                &:last-child button {
+                    right: -160% !important;
+                }
+            }
+        }
+    }
+}
+
+@media screen and(max-width: 376px) {
+    .nav {
+        ul {
+            li {
+                &:nth-child(2),
+                &:nth-child(3),
+                &:nth-child(4),
+                &:nth-child(5),
+                &:nth-child(6) {
+                    padding: 0 5px !important;
+                }
+                &:last-child input {
+                    width: 260% !important;
+                }
+                &:nth-child(6) {
+                    border: none;
+                }
+                &:nth-child(7) {
+                    padding: 0 !important;
+                }
+                &:last-child button {
+                    right: -166% !important;
+                }
+            }
+        }
+    }
+}
+
+@media screen and(max-width: 320px) {
+    .nav {
+        ul {
+            li {
+                &:nth-child(2),
+                &:nth-child(3),
+                &:nth-child(4),
+                &:nth-child(5),
+                &:nth-child(6) {
+                    padding: 0 0px !important;
+                }
+                &:last-child input {
+                    width: 220% !important;
+                }
+                &:nth-child(6) {
+                    border: none;
+                }
+                &:nth-child(7) {
+                    padding: 0 !important;
+                }
+                &:last-child button {
+                    right: -126% !important;
+                }
+            }
+        }
+    }
+}

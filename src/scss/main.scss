@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    font-size: 16px;
+    padding-bottom: 15px;
+    font-family: 'Roboto', sans-serif;
+    background-color: #043461;
+    // background: linear-gradient(to bottom, #043461, #025d63);
+    background-size: cover;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+main {
+    position: relative;
+}

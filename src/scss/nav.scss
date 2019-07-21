@@ -1,0 +1,66 @@
+                        $blue: #00b2b2;
+                        .nav {
+                            float: left;
+                            background-color: #fff;
+                            width: 82.5%;
+                            ul {
+                                list-style: none;
+                                box-sizing: border-box;
+                                li {
+                                    display: inline-block;
+                                    border-right: 1px solid #000;
+                                    a {
+                                        display: inline-block;
+                                        padding: 0 15px;
+                                        color: #000;
+                                        text-decoration: none;
+                                        line-height: 50px;
+                                    }
+                                    .home {
+                                        position: relative;
+                                        border: none;
+                                        img {
+                                            position: absolute;
+                                            top: -13px;
+                                            left: 5px;
+                                            line-height: 50px;
+                                        }
+                                    }
+                                    &:first-child {
+                                        border: none;
+                                        padding: 0 15px;
+                                    }
+                                    &:last-child {
+                                        padding-left: 15px;
+                                        border: none;
+                                        position: relative;
+                                        input {
+                                            display: block;
+                                            outline: none;
+                                            width: 216%;
+                                            border: none;
+                                            background-color: #eeeeee;
+                                            height: 25px;
+                                            padding: 4px;
+                                            // margin: 0 auto;
+                                        }
+                                        button {
+                                            width: 23px;
+                                            background-image: url(../../build/img/serch.jpg);
+                                            background-repeat: no-repeat;
+                                            background-position: center;
+                                            border: none;
+                                            outline: none;
+                                            height: 100%;
+                                            position: absolute;
+                                            top: 0;
+                                            right: -132%;
+                                            width: 20%;
+                                        }
+                                    }
+                                }
+                                .about {
+                                    border-left: 1px solid #000;
+                                }
+                            }
+                        }
